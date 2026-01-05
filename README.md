@@ -4,8 +4,8 @@ This repository serves as the root workspace linking the **Frontend** and **Back
 
 > 📘 **Full Documentation**
 >
-> -   **Frontend Details**: See [taskmgr-client/README.md](./taskmgr-client/README.md) for UI features, components, and styling.
-> -   **Backend Details**: See [taskmgr-api/README.md](./taskmgr-api/README.md) for API endpoints, database schema, and authentication flows.
+> -   **Frontend Details**: See [taskmgr-client](https://github.com/safdar-azeem/taskmgr-client) for UI features, components, and styling.
+> -   **Backend Details**: See [taskmgr-api](https://github.com/safdar-azeem/taskmgr-api) for API endpoints, database schema, and authentication flows.
 
 ---
 
