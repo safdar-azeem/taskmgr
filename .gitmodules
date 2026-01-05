@@ -1,0 +1,9 @@
+[submodule "taskmgr-client"]
+	path = taskmgr-client
+	url = https://github.com/safdar-azeem/taskmgr-client.git
+	branch = main
+
+[submodule "taskmgr-api"]
+	path = taskmgr-api
+	url = https://github.com/safdar-azeem/taskmgr-api.git
+	branch = main
