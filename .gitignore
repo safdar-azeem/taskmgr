@@ -6,5 +6,3 @@ coverage
 .vscode
 .idea
 *.log
-/taskmgr-api
-/taskmgr-client
