@@ -1,0 +1,23 @@
+{
+  "name": "taskmgr-root",
+  "version": "1.0.0",
+  "description": "Root orchestrator for TaskMgr System",
+  "private": true,
+  "scripts": {
+    "postinstall": "yarn install:all",
+    "install:all": "yarn install:client && yarn install:api",
+    "install:client": "cd taskmgr-client && yarn install",
+    "install:api": "cd taskmgr-api && yarn install",
+    "dev:client": "cd taskmgr-client && yarn dev",
+    "dev:api": "cd taskmgr-api && yarn dev",
+    "build": "yarn build:client && yarn build:api",
+    "build:client": "cd taskmgr-client && yarn build",
+    "build:api": "cd taskmgr-api && yarn build",
+    "lint": "cd taskmgr-client && yarn lint",
+    "test": "cd taskmgr-api && yarn test",
+    "submodule:update": "git submodule update --remote --merge"
+  },
+  "devDependencies": {},
+  "author": "Safdar Azeem",
+  "license": "ISC"
+}
